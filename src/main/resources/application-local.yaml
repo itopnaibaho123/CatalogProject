@@ -1,0 +1,18 @@
+#spring.application.name=catalog-mongo
+#spring.data.mongodb.uri= mongodb://localhost:27017/?retryWrites=true&w=majority
+#spring.data.mongodb.database=CatalogDB
+#spring.main.allow-bean-definition-overriding=true
+
+spring:
+  application:
+    name: catalog-mongo
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/?retryWrites=true&w=majority
+      database: CatalogDB
+  main:
+    allow-bean-definition-overriding: true
+  cache:
+    type: redis
+    host: localhost
+    port: 6379
