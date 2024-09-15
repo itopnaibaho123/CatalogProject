@@ -1,8 +1,3 @@
-#spring.application.name=catalog-mongo
-#spring.data.mongodb.uri= mongodb://localhost:27017/?retryWrites=true&w=majority
-#spring.data.mongodb.database=CatalogDB
-#spring.main.allow-bean-definition-overriding=true
-
 spring:
   application:
     name: catalog-mongo
