@@ -1,4 +1,4 @@
-requirements:
+Requirements:
 1. Java 21
 2. MongoDB
 
